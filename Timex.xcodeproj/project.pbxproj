@@ -13,6 +13,8 @@
 		6239FD1D26A7519300AC6489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6239FD1C26A7519300AC6489 /* Preview Assets.xcassets */; };
 		6239FD2926A7519400AC6489 /* TimexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD2826A7519400AC6489 /* TimexTests.swift */; };
 		6239FD3426A7519400AC6489 /* TimexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD3326A7519400AC6489 /* TimexUITests.swift */; };
+		6239FD4226A7525100AC6489 /* NSWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD4126A7525100AC6489 /* NSWKWebView.swift */; };
+		624739C126D3E74200261234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624739C026D3E74200261234 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		6239FD2F26A7519400AC6489 /* TimexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6239FD3326A7519400AC6489 /* TimexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimexUITests.swift; sourceTree = "<group>"; };
 		6239FD3526A7519400AC6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6239FD4126A7525100AC6489 /* NSWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSWKWebView.swift; sourceTree = "<group>"; };
+		624739C026D3E74200261234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				6239FD1526A7519200AC6489 /* TimexApp.swift */,
+				624739C026D3E74200261234 /* AppDelegate.swift */,
 				6239FD1726A7519200AC6489 /* ContentView.swift */,
+				6239FD4126A7525100AC6489 /* NSWKWebView.swift */,
 				6239FD1926A7519300AC6489 /* Assets.xcassets */,
 				6239FD1E26A7519300AC6489 /* Info.plist */,
 				6239FD1F26A7519300AC6489 /* Timex.entitlements */,
@@ -195,7 +201,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					6239FD1126A7519100AC6489 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624739C126D3E74200261234 /* AppDelegate.swift in Sources */,
 				6239FD1826A7519200AC6489 /* ContentView.swift in Sources */,
+				6239FD4226A7525100AC6489 /* NSWKWebView.swift in Sources */,
 				6239FD1626A7519200AC6489 /* TimexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +427,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Timex/Timex.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Timex/Preview Content\"";
-				DEVELOPMENT_TEAM = FCMC78N77B;
+				DEVELOPMENT_TEAM = KRX3M99K22;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timex/Info.plist;
@@ -443,10 +452,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Timex/Timex.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Timex/Preview Content\"";
-				DEVELOPMENT_TEAM = FCMC78N77B;
+				DEVELOPMENT_TEAM = KRX3M99K22;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timex/Info.plist;
