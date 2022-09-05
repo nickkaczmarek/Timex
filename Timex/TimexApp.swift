@@ -15,5 +15,14 @@ struct TimexApp: App {
         WindowGroup {
             ContentView()
         }
+//        .commands {
+//            CommandGroup(after: CommandGroupPlacement.toolbar) {
+//                Button("Reload Page") {
+//                    print("reloading")
+//                }
+//                .keyboardShortcut("r")
+//                Divider()
+//            }
+//        }
     }
 }

@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let timexUrl = "https://timex.apps.wwt.com"
+    @StateObject var webViewModel = WebViewModel()
+
+    @State private var webView: NSWKWebView?
 
     var body: some View {
-        SafariWebView(mesgURL: timexUrl)
+        webView
             .frame(minWidth: 400,
                    idealWidth: 1000,
                    maxWidth: .infinity,
@@ -19,25 +21,51 @@ struct ContentView: View {
                    idealHeight: 800,
                    maxHeight: .infinity,
                    alignment: .center)
-    }
-}
+            .onAppear {
+                webView = NSWKWebView(viewModel: webViewModel)
+            }
+            .toolbar {
+                ToolbarItem {
+                    HStack {
+                        Text(URL(string: webViewModel.link)!.host ?? "")
+                            .fontWeight(.bold)
+                        Spacer()
+                        Button {
+                            webView?.goHome()
+                        } label: {
+                            Image(systemName: "house")
+                        }
+                        .keyboardShortcut("h", modifiers: [.command, .shift])
 
-struct SafariWebView: View {
-    @ObservedObject var model: WebViewModel
+                        Button {
+                            webView?.stopLoading()
+                        } label: {
+                            Image(systemName: "xmark")
+                        }
+                        .keyboardShortcut(".")
 
-    init(mesgURL: String) {
-        //Assign the url to the model and initialise the model
-        self.model = WebViewModel(link: mesgURL)
-    }
-    
-    var body: some View {
-        //Create the WebView with the model
-        NSWKWebView(viewModel: model)
-    }
-}
+                        Button {
+                            webView?.goBack()
+                        } label: {
+                            Image(systemName: "arrow.backward")
+                        }
+                        .keyboardShortcut(KeyEquivalent.leftArrow)
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+                        Button {
+                            webView?.reload()
+                        } label: {
+                            Image(systemName: "arrow.clockwise")
+                        }
+                        .keyboardShortcut("r")
+
+                        Button {
+                            webView?.goForward()
+                        } label: {
+                            Image(systemName: "arrow.forward")
+                        }
+                        .keyboardShortcut(KeyEquivalent.rightArrow)
+                    }
+                }
+            }
     }
 }

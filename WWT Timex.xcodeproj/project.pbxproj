@@ -11,63 +11,24 @@
 		6239FD1826A7519200AC6489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD1726A7519200AC6489 /* ContentView.swift */; };
 		6239FD1A26A7519300AC6489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6239FD1926A7519300AC6489 /* Assets.xcassets */; };
 		6239FD1D26A7519300AC6489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6239FD1C26A7519300AC6489 /* Preview Assets.xcassets */; };
-		6239FD2926A7519400AC6489 /* TimexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD2826A7519400AC6489 /* TimexTests.swift */; };
-		6239FD3426A7519400AC6489 /* TimexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD3326A7519400AC6489 /* TimexUITests.swift */; };
 		6239FD4226A7525100AC6489 /* NSWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239FD4126A7525100AC6489 /* NSWKWebView.swift */; };
 		624739C126D3E74200261234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624739C026D3E74200261234 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6239FD2526A7519400AC6489 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6239FD0A26A7519100AC6489 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6239FD1126A7519100AC6489;
-			remoteInfo = Timex;
-		};
-		6239FD3026A7519400AC6489 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6239FD0A26A7519100AC6489 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6239FD1126A7519100AC6489;
-			remoteInfo = Timex;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		6239FD1226A7519100AC6489 /* Timex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6239FD1226A7519100AC6489 /* WWT Timex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWT Timex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6239FD1526A7519200AC6489 /* TimexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimexApp.swift; sourceTree = "<group>"; };
 		6239FD1726A7519200AC6489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6239FD1926A7519300AC6489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6239FD1C26A7519300AC6489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6239FD1E26A7519300AC6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6239FD1F26A7519300AC6489 /* Timex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timex.entitlements; sourceTree = "<group>"; };
-		6239FD2426A7519400AC6489 /* TimexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6239FD2826A7519400AC6489 /* TimexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimexTests.swift; sourceTree = "<group>"; };
-		6239FD2A26A7519400AC6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6239FD2F26A7519400AC6489 /* TimexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6239FD3326A7519400AC6489 /* TimexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimexUITests.swift; sourceTree = "<group>"; };
-		6239FD3526A7519400AC6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6239FD4126A7525100AC6489 /* NSWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSWKWebView.swift; sourceTree = "<group>"; };
 		624739C026D3E74200261234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6239FD0F26A7519100AC6489 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6239FD2126A7519400AC6489 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6239FD2C26A7519400AC6489 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				6239FD1426A7519100AC6489 /* Timex */,
-				6239FD2726A7519400AC6489 /* TimexTests */,
-				6239FD3226A7519400AC6489 /* TimexUITests */,
 				6239FD1326A7519100AC6489 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,9 +49,7 @@
 		6239FD1326A7519100AC6489 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6239FD1226A7519100AC6489 /* Timex.app */,
-				6239FD2426A7519400AC6489 /* TimexTests.xctest */,
-				6239FD2F26A7519400AC6489 /* TimexUITests.xctest */,
+				6239FD1226A7519100AC6489 /* WWT Timex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,30 +77,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6239FD2726A7519400AC6489 /* TimexTests */ = {
-			isa = PBXGroup;
-			children = (
-				6239FD2826A7519400AC6489 /* TimexTests.swift */,
-				6239FD2A26A7519400AC6489 /* Info.plist */,
-			);
-			path = TimexTests;
-			sourceTree = "<group>";
-		};
-		6239FD3226A7519400AC6489 /* TimexUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6239FD3326A7519400AC6489 /* TimexUITests.swift */,
-				6239FD3526A7519400AC6489 /* Info.plist */,
-			);
-			path = TimexUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6239FD1126A7519100AC6489 /* Timex */ = {
+		6239FD1126A7519100AC6489 /* WWT Timex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6239FD3826A7519400AC6489 /* Build configuration list for PBXNativeTarget "Timex" */;
+			buildConfigurationList = 6239FD3826A7519400AC6489 /* Build configuration list for PBXNativeTarget "WWT Timex" */;
 			buildPhases = (
 				6239FD0E26A7519100AC6489 /* Sources */,
 				6239FD0F26A7519100AC6489 /* Frameworks */,
@@ -153,46 +92,10 @@
 			);
 			dependencies = (
 			);
-			name = Timex;
+			name = "WWT Timex";
 			productName = Timex;
-			productReference = 6239FD1226A7519100AC6489 /* Timex.app */;
+			productReference = 6239FD1226A7519100AC6489 /* WWT Timex.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6239FD2326A7519400AC6489 /* TimexTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6239FD3B26A7519400AC6489 /* Build configuration list for PBXNativeTarget "TimexTests" */;
-			buildPhases = (
-				6239FD2026A7519400AC6489 /* Sources */,
-				6239FD2126A7519400AC6489 /* Frameworks */,
-				6239FD2226A7519400AC6489 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6239FD2626A7519400AC6489 /* PBXTargetDependency */,
-			);
-			name = TimexTests;
-			productName = TimexTests;
-			productReference = 6239FD2426A7519400AC6489 /* TimexTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6239FD2E26A7519400AC6489 /* TimexUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6239FD3E26A7519400AC6489 /* Build configuration list for PBXNativeTarget "TimexUITests" */;
-			buildPhases = (
-				6239FD2B26A7519400AC6489 /* Sources */,
-				6239FD2C26A7519400AC6489 /* Frameworks */,
-				6239FD2D26A7519400AC6489 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6239FD3126A7519400AC6489 /* PBXTargetDependency */,
-			);
-			name = TimexUITests;
-			productName = TimexUITests;
-			productReference = 6239FD2F26A7519400AC6489 /* TimexUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,17 +109,9 @@
 					6239FD1126A7519100AC6489 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					6239FD2326A7519400AC6489 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 6239FD1126A7519100AC6489;
-					};
-					6239FD2E26A7519400AC6489 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 6239FD1126A7519100AC6489;
-					};
 				};
 			};
-			buildConfigurationList = 6239FD0D26A7519100AC6489 /* Build configuration list for PBXProject "Timex" */;
+			buildConfigurationList = 6239FD0D26A7519100AC6489 /* Build configuration list for PBXProject "WWT Timex" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6239FD1126A7519100AC6489 /* Timex */,
-				6239FD2326A7519400AC6489 /* TimexTests */,
-				6239FD2E26A7519400AC6489 /* TimexUITests */,
+				6239FD1126A7519100AC6489 /* WWT Timex */,
 			);
 		};
 /* End PBXProject section */
@@ -243,20 +136,6 @@
 			files = (
 				6239FD1D26A7519300AC6489 /* Preview Assets.xcassets in Resources */,
 				6239FD1A26A7519300AC6489 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6239FD2226A7519400AC6489 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6239FD2D26A7519400AC6489 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,36 +153,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6239FD2026A7519400AC6489 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6239FD2926A7519400AC6489 /* TimexTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6239FD2B26A7519400AC6489 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6239FD3426A7519400AC6489 /* TimexUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6239FD2626A7519400AC6489 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6239FD1126A7519100AC6489 /* Timex */;
-			targetProxy = 6239FD2526A7519400AC6489 /* PBXContainerItemProxy */;
-		};
-		6239FD3126A7519400AC6489 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6239FD1126A7519100AC6489 /* Timex */;
-			targetProxy = 6239FD3026A7519400AC6489 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6239FD3626A7519400AC6489 /* Debug */ = {
@@ -427,11 +277,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Timex/Timex.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Timex/Preview Content\"";
-				DEVELOPMENT_TEAM = KRX3M99K22;
+				DEVELOPMENT_TEAM = 464Z6PYPYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timex/Info.plist;
@@ -440,8 +290,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.Timex;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.WWTTimex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -452,11 +304,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Timex/Timex.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Timex/Preview Content\"";
-				DEVELOPMENT_TEAM = KRX3M99K22;
+				DEVELOPMENT_TEAM = 464Z6PYPYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timex/Info.plist;
@@ -465,100 +317,18 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.Timex;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.WWTTimex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		6239FD3C26A7519400AC6489 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FCMC78N77B;
-				INFOPLIST_FILE = TimexTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.TimexTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timex.app/Contents/MacOS/Timex";
-			};
-			name = Debug;
-		};
-		6239FD3D26A7519400AC6489 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FCMC78N77B;
-				INFOPLIST_FILE = TimexTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.TimexTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timex.app/Contents/MacOS/Timex";
-			};
-			name = Release;
-		};
-		6239FD3F26A7519400AC6489 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FCMC78N77B;
-				INFOPLIST_FILE = TimexUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.TimexUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Timex;
-			};
-			name = Debug;
-		};
-		6239FD4026A7519400AC6489 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FCMC78N77B;
-				INFOPLIST_FILE = TimexUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickkaczmarek.TimexUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Timex;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6239FD0D26A7519100AC6489 /* Build configuration list for PBXProject "Timex" */ = {
+		6239FD0D26A7519100AC6489 /* Build configuration list for PBXProject "WWT Timex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6239FD3626A7519400AC6489 /* Debug */,
@@ -567,29 +337,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6239FD3826A7519400AC6489 /* Build configuration list for PBXNativeTarget "Timex" */ = {
+		6239FD3826A7519400AC6489 /* Build configuration list for PBXNativeTarget "WWT Timex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6239FD3926A7519400AC6489 /* Debug */,
 				6239FD3A26A7519400AC6489 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6239FD3B26A7519400AC6489 /* Build configuration list for PBXNativeTarget "TimexTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6239FD3C26A7519400AC6489 /* Debug */,
-				6239FD3D26A7519400AC6489 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6239FD3E26A7519400AC6489 /* Build configuration list for PBXNativeTarget "TimexUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6239FD3F26A7519400AC6489 /* Debug */,
-				6239FD4026A7519400AC6489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
